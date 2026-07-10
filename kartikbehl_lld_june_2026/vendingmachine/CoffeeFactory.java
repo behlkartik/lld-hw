@@ -1,4 +1,4 @@
-package com.sdeready.designpatterns.creational.vendingmachine;
+package designpatterns.kartikbehl_lld_june_2026.vendingmachine;
 
 public class CoffeeFactory {
     public static Coffee getCoffee(int selectedOption) throws Exception {

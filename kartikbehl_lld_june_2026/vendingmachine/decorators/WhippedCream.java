@@ -1,6 +1,6 @@
-package com.sdeready.designpatterns.creational.vendingmachine.decorators;
+package designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators;
 
-import com.sdeready.designpatterns.creational.vendingmachine.Coffee;
+import designpatterns.kartikbehl_lld_june_2026.vendingmachine.Coffee;
 
 public class WhippedCream extends CoffeeAddon{
 

@@ -1,8 +1,8 @@
-package com.sdeready.designpatterns.creational.vendingmachine;
+package designpatterns.kartikbehl_lld_june_2026.vendingmachine;
 
-import com.sdeready.designpatterns.creational.vendingmachine.decorators.Milk;
-import com.sdeready.designpatterns.creational.vendingmachine.decorators.Sugar;
-import com.sdeready.designpatterns.creational.vendingmachine.decorators.WhippedCream;
+import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.Milk;
+import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.Sugar;
+import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.WhippedCream;
 
 import java.util.Scanner;
 
@@ -10,7 +10,6 @@ public class Driver {
     public static void main(String[] args) throws Exception {
         Coffee coffee = null;
         Scanner sc = new Scanner(System.in);
-        int count = 0;
         System.out.println("====== Coffee Vending Machine ======");
         System.out.println("Choose Coffee:");
         System.out.println("1. Espresso");

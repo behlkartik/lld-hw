@@ -1,6 +1,6 @@
-package designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators;
+package com.sdeready.lld.vendingmachine.decorators;
 
-import designpatterns.kartikbehl_lld_june_2026.vendingmachine.Coffee;
+import com.sdeready.lld.vendingmachine.Coffee;
 
 public class Milk extends CoffeeAddon{
     public Milk(Coffee coffee) {

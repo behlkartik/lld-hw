@@ -1,8 +1,8 @@
-package designpatterns.kartikbehl_lld_june_2026.vendingmachine;
+package com.sdeready.lld.vendingmachine;
 
-import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.Milk;
-import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.Sugar;
-import designpatterns.kartikbehl_lld_june_2026.vendingmachine.decorators.WhippedCream;
+import com.sdeready.lld.vendingmachine.decorators.Milk;
+import com.sdeready.lld.vendingmachine.decorators.Sugar;
+import com.sdeready.lld.vendingmachine.decorators.WhippedCream;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class Driver {
 
         System.out.println("Add Milk? (y/n)");
         char selection = sc.next().charAt(0);
-        if(selection == 'y'){
+        if(selection == 'y' || selection == 'Y'){
             coffee = new Milk(coffee);
         }
         System.out.println("Current Selection: "+coffee.getName());

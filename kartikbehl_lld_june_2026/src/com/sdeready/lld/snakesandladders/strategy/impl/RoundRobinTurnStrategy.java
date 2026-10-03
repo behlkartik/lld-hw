@@ -1,6 +1,7 @@
-package com.sdeready.lld.snakesandladders.strategy;
+package com.sdeready.lld.snakesandladders.strategy.impl;
 
 import com.sdeready.lld.snakesandladders.models.Player;
+import com.sdeready.lld.snakesandladders.strategy.TurnTakingStrategy;
 
 import java.util.LinkedList;
 import java.util.List;

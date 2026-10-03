@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fab9fb47-3576-4592-a002-fa800fbdc3be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/service/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/RandomTurnStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/impl/RandomTurnStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/RoundRobinTurnStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/impl/RoundRobinTurnStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/StrictWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sdeready/lld/snakesandladders/strategy/impl/StrictWinningStrategy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HL1l7KHwpj0sdCqqtAMmIeIDpV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Driver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.sdeready.lld.parkinglot.Driver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.sdeready.lld.snakesandladders.Driver.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;behlkartik/snakesandladder__assignment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kart1813/work/lld-hw/kartikbehl_lld_june_2026&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sdeready.lld.snakesandladders.Driver" />
+      <module name="kartikbehl_lld_june_2026" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33813.55" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fab9fb47-3576-4592-a002-fa800fbdc3be" name="Changes" comment="" />
+      <created>1785632684245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785632684245</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sdeready/lld/parkinglot/model/ParkingFloor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sdeready/lld/parkinglot/model/ParkingFloor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

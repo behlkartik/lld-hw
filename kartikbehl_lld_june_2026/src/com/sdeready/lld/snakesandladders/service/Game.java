@@ -1,11 +1,13 @@
-package com.sdeready.lld.snakesandladders.models;
+package com.sdeready.lld.snakesandladders.service;
 
+import com.sdeready.lld.snakesandladders.models.Board;
+import com.sdeready.lld.snakesandladders.models.BoardItem;
+import com.sdeready.lld.snakesandladders.models.Dice;
+import com.sdeready.lld.snakesandladders.models.Player;
 import com.sdeready.lld.snakesandladders.strategy.TurnTakingStrategy;
 import com.sdeready.lld.snakesandladders.strategy.WinningStrategy;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Game {
     private final Dice dice;
@@ -46,26 +48,17 @@ public class Game {
             int diceNumber = dice.roll();
             System.out.println("Player "+player.getName()+"("+player.getCurrentPosition()+") rolled a "+diceNumber+"...");
 
-            int position = player.getCurrentPosition() + diceNumber;
-            BoardItem boardItem = board.getItem(position);
-            System.out.println("Board item: "+boardItem.getStart()+", "+boardItem.getEnd());
-
-            int finalPosition = boardItem.getEnd();
-            if (!board.isValidPosition(finalPosition)) {
-                System.out.println("Invalid position!");
-                continue;
-            }
-            player.move(finalPosition);
+            board.movePlayer(player, diceNumber);
             if(winningStrategy.hasWon(player, board)){
-                player.setRank(++playerRank);
+                player.setRank(playerRank);
                 player.setHasWon(true);
-                System.out.println("Player "+player.getName()+" won at position "+player.getRank());
+                playerRank++;
             }
             Thread.sleep(100);
 
         }
         if(player != null){
-            player.setRank(++playerRank);
+            player.setRank(playerRank);
             player.setHasWon(true);
         }
 

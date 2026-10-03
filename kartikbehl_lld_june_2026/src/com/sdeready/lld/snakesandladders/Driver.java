@@ -1,7 +1,11 @@
 package com.sdeready.lld.snakesandladders;
 
 import com.sdeready.lld.snakesandladders.models.*;
+import com.sdeready.lld.snakesandladders.service.Game;
 import com.sdeready.lld.snakesandladders.strategy.*;
+import com.sdeready.lld.snakesandladders.strategy.impl.RandomTurnStrategy;
+import com.sdeready.lld.snakesandladders.strategy.impl.RoundRobinTurnStrategy;
+import com.sdeready.lld.snakesandladders.strategy.impl.StrictWinningStrategy;
 
 import java.util.*;
 
@@ -12,43 +16,16 @@ public class Driver {
         System.out.println("How many faced dice you want?");
         Dice dice = new Dice(scanner.nextInt());
 
-        // using 10 rows
-        System.out.println("How many rows?");
-        int row = scanner.nextInt();
-        // using 10 cols
-        System.out.println("How many columns?");
-        int col = scanner.nextInt();
-        Board board = new Board(row, col);
-        System.out.println("Board size: "+board.getSize());
-
+        System.out.println("Size of board:");
+        int size = scanner.nextInt();
         System.out.println("How many snakes?");
         int snakes = scanner.nextInt();
-        scanner.nextLine();
-        while (snakes > 0) {
-            System.out.println("Enter snake positions start,end comma separated:");
-            String[] snakePos = scanner.nextLine().split(",");
-            try {
-                board.addItem(new Snake(Integer.parseInt(snakePos[0].trim()), Integer.parseInt(snakePos[1].trim())));
-            }catch (IllegalArgumentException e){
-                System.out.println(e.getMessage());
-                continue;
-            }
-            snakes--;
-        }
         System.out.println("How many ladders?");
         int ladders = scanner.nextInt();
-        scanner.nextLine();
-        while (ladders > 0) {
-            System.out.println("Enter ladder positions start,end comma separated:");
-            String[] ladderPos = scanner.nextLine().split(",");
-            try {
-                board.addItem(new Ladder(Integer.parseInt(ladderPos[0].trim()), Integer.parseInt(ladderPos[1].trim())));
-            }catch (IllegalArgumentException e){
-                System.out.println(e.getMessage());
-                continue;
-            }
-            ladders--;
-        }
+        Board board = new Board(size, snakes, ladders);
+        System.out.println("Board size: "+board.getSize());
+        board.placeItems();
+
         List<Player> players = new ArrayList<>();
         System.out.println("How many players?");
         int playerCount = scanner.nextInt();

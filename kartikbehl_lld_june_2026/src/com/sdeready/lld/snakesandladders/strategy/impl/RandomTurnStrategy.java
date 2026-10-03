@@ -1,11 +1,12 @@
-package com.sdeready.lld.snakesandladders.strategy;
+package com.sdeready.lld.snakesandladders.strategy.impl;
 
 import com.sdeready.lld.snakesandladders.models.Player;
+import com.sdeready.lld.snakesandladders.strategy.TurnTakingStrategy;
 
 import java.util.List;
 import java.util.Random;
 
-public class RandomTurnStrategy implements TurnTakingStrategy{
+public class RandomTurnStrategy implements TurnTakingStrategy {
     List<Player> players;
 
     public RandomTurnStrategy(List<Player> players){
